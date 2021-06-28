@@ -1,0 +1,16 @@
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+#header-img {
+    width: 25%;
+}
+#img {
+    width: 25%;
+}
