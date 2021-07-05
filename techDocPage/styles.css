@@ -26,8 +26,9 @@ p {
   font-size: 1fr;
   border: 6px solid grey;
   background-color: lightgrey;
-  margin-top: 5%;
+  margin-top: 50%;
 }
+
 #main-doc {
   grid-column: 2;
   grid-row: 2;
