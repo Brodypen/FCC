@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body><div class="main">
+    <h1 id="title"> Brody's Survey Form </h1>
+    <p id="description"> Submit info about yourself </p>
+    <form id="survey-form">
+      <label id="name-label" for="name"> Name</label>
+      <input type="text" name="name" id="name"placeholder="Enter your name" required/>
+      <label id="email-label" for="email"> Email</label>
+      <input type="email" name="email" id="email"placeholder="Enter your Email" required/>
+      <br>
+      <br>
+      <label id="number-label" for="number">Age</label>
+      <input type="number" name="age" id="number" min="1" max="99" placeholder="Age"/>
+      <div class="form-group">
+        <p> What do you like the most? </p>
+        <select id="dropdown" name="role" required>
+          <option disabled selected value> Select Favorite </option>
+          <option value="Brody">Brody
+          </option>
+          <option value="Me">Me
+          </option>
+        </select>
+        <p> Am I cool? </p>
+        <label>
+          <input name="cool" value="yuh" type="radio" checked>Yuh</input>
+        <input name="cool" value="nah" type="radio" >Nah</input>
+      <input name="cool" value="maybe" type="radio" >Maybe</input>
+        </label>
+<p>Things you like</p>
+<label><input name="prefer" value="Hair" type="checkbox">Hair</input></label>
+<label><input name="prefer" value="Nose" type="checkbox">Nose</input></label>
+<label><input name="prefer" value="Legs" type="checkbox">Legs</input></label>
+<p>Any other Info?</p>
+<textarea id="comments" name="comment" placeholder="Enter your comment"></textarea>
+<br>
+<button type="submit" id="submit">Submit</sumbit>
+    </form>
+    
+</div></body>
+</html>
