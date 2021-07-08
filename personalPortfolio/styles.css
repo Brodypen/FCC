@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#welcome-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rebeccapurple;
+  background-image: linear-gradient(62deg, #d11616e1 0%, #2bb3e9e8 100%);
+}
+
+@media (max-height: 100%) {
+  #welcome-section {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+  }
+}
+#navbar {
+  position: fixed;
+  background-color: goldenrod;
+  top: 0;
+  left: 0;
+}
